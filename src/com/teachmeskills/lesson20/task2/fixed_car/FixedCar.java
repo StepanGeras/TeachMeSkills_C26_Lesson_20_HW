@@ -4,7 +4,7 @@ import com.teachmeskills.lesson20.task2.moving_car.MovingCar;
 
 public class FixedCar implements Runnable{
 
-    private MovingCar car;
+    private final MovingCar car;
     private int count;
 
     public FixedCar(MovingCar car) {

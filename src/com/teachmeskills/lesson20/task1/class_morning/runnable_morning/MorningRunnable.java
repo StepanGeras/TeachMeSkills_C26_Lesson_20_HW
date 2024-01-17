@@ -3,7 +3,7 @@ package com.teachmeskills.lesson20.task1.class_morning.runnable_morning;
 public class MorningRunnable implements Runnable {
 
     Thread thread;
-    private String workMorning;
+    private final String workMorning;
 
     public MorningRunnable(String workMorning, int priority) {
         this.workMorning = workMorning;
